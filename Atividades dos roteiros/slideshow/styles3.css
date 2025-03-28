@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* Estilização básica */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(180, 180, 180);
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Seção principal */
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+/* Slideshow */
+#slideshow {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Esconde todas as slides inicialmente */
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Botões de navegação */
+button {
+    background-color: rgb(145, 0, 0);
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1em;
+}
+
+button:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+/* Rodapé */
+footer {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}

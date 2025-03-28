@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* Estilização básica */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(90, 0, 0);
+}
+
+/* Cabeçalho */
+header, footer {
+    background-color: rgb(100, 100, 100);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-inline: 10%;
+
+}
+
+section {
+    background-color: rgb(150, 150, 150);
+    margin-inline: 10%;
+    text-align: center;
+}
+
+/* Botões de navegação */
+button {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1em;
+}
+
+button:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+

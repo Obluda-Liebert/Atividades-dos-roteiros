@@ -1,0 +1,30 @@
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(210, 240, 210);
+}
+
+/* Cabeçalho e Rodapé */
+header, footer {
+    background-color: rgb(40, 50, 40);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+}
+
+button {
+    background-color: rgb(150, 150, 150);
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 85, 180);
+}
